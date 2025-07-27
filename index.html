@@ -4,27 +4,12 @@
   <meta charset="UTF-8">
   <title>YouTube Video</title>
   <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      background-color: #f0f0f0;
-    }
-    iframe {
-      width: 80%;
-      height: 80vh;
-    }
+    body { margin: 0; overflow: hidden; }
+    iframe { width: 100vw; height: 100vh; border: none}
   </style>
 </head>
 <body>
   <!-- 유튜브 영상 임베드 -->
-  <iframe src="https://www.youtube.com/embed/re9sT-AMGOs" 
-          title="YouTube video" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-  </iframe>
+  <iframe src="https://www.youtube.com/embed/re9sT-AMGOs"allowfullscreen></iframe>
 </body>
 </html>
